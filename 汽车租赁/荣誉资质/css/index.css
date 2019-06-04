@@ -1,0 +1,206 @@
+*{margin:0;padding:0}
+li{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+.huanying{
+    width:100%;
+    height:36px;
+    background:#f5f5f5;
+    border-bottom:1px solid #eeeeee;
+}
+.huanying>.neirong{
+    width:1180px;
+    height:36px;
+    margin:0 auto;
+}
+.huanying>.neirong>p{
+    float:left;
+    height:36px;
+    font-size:12px;
+    line-height:36px;
+}
+.huanying>.neirong>img{
+    float:right;
+}
+
+
+.daohang{
+    width:1120px;
+    height:105px;
+    margin:0 auto;
+}
+.daohang>img{
+    float:left;
+}
+.daohang>ul{
+    float:right;
+}
+.daohang>ul>li{
+    height:102px;
+    line-height:102px;
+    margin:0 14px;
+    float:left;
+}
+.daohang>ul>li>a{
+    display:inline-block;
+    font-size:18px;
+    color:#000;
+}
+.daohang>ul>li>a:hover{
+    border-bottom:3px solid #2869d5;
+}
+
+
+
+
+
+.erweima{
+    width:100%;
+    height:300px;
+    background:#222222;
+}
+.erweima>.neirong{
+    width:1100px;
+    height:300px;
+    margin:0 auto;
+}
+.erweima>.neirong>.ma{
+    display:block;
+    width:1100px;
+    height:200px;
+    position:relative;
+    border-bottom:1px dotted #606060;
+}
+.erweima>.neirong>.ma>dl{
+    width:440px;
+    height:155px;
+    float:left;
+    margin:20px 55px 0 55px;
+    line-height:100px;
+}
+.erweima>.neirong>.ma>dl>dt{
+    width:175px;
+    height:155px;
+    margin-right:30px;
+    border-right:1px dotted #606060;
+}
+.erweima>.neirong>.ma>dl>dd{
+    color:#fff;
+    height:30px;
+}
+.erweima>.neirong>a{
+    display:inline-block;
+    color:#fff;
+    font-size:14px;
+    margin:30px 0px 0px 30px;
+}
+
+/* 荣誉资质开始 */
+
+.shop_list {
+    width:1678px;
+    height: 400px;
+
+    margin: 0 auto;
+
+}
+.nav{
+    width: 100%;
+    height: 30px;
+    line-height:30px;
+    min-width: 1600px;
+    background: rgb(215, 250, 232);
+
+
+}
+
+.nav a{
+    color: #000;
+}
+.nav li{
+
+    font-size: 12px;
+    
+    list-style:none;
+    float:left;
+   
+
+}
+.nar{
+    margin: 0 0 0 1400px;
+    
+    
+}
+.naa{
+    width: 600px;
+    height: 100px;
+    min-width:1000px;
+    margin:40px auto;
+    
+}
+.naa ul{
+    list-style:none;
+    line-height: 40px;
+    text-align:center;
+}
+.nad img{
+    width: 300px;
+    height: 200px;
+
+}
+.nad dd{
+    width:300px;text-align: center
+}
+.nad dl{
+    margin: 23px 10px 10px 25px;
+    float: left;
+}
+.nad{
+    margin: 0 auto;
+    width:1020px;
+    height:520px;
+}
+.nae{
+    width:100px;
+    height:30px;
+    background: darkgray;
+    
+    line-height: 30px;
+    
+    text-align: center;
+    font-size: 10px;
+    
+    margin: 100px auto;
+    
+
+}
+
+.nae :hover {
+
+
+    cursor: pointer;
+    background: #adf;
+    color: #333;
+}
+
+
+.nae ul{
+    list-style:none;
+    
+}
+
+/* 荣誉资质结束 */
+
+
+
+
+
+
+
+
+
+
+
