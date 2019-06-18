@@ -1,0 +1,439 @@
+body{
+	background:#f7f7f7;
+}
+/*导航*/
+#nav{
+	background:#000;
+	transition:all 1s ease;
+}
+.logo{
+	transition:all 1s ease;
+	cursor: pointer;
+}
+.logo:hover{
+	opacity:0.5;
+}
+.nav-ul{
+	margin-top:5px;
+	transition:all 1s ease;
+}
+.navbtn{
+	transition:all 1s ease;
+}
+.nav-ul li{
+	margin-right:8px;
+	height:35px;
+}
+.nav-ul li a{
+	color:#c1c1c1 !important;
+	font-size:12px;
+	transition:all 1s ease;
+}
+.nav-ul li a:hover{
+	color:#bf8945 !important;
+}
+@media(max-width:768px){
+	.xia{
+		background:#fff !important;
+	}
+}
+
+
+/*轮播*/
+.lun-img div img{
+	margin:0 auto;
+	cursor:pointer;
+}
+
+
+/*滚动字幕*/
+.zimu{
+	width:9200px;
+	height:50px;
+	animation:gun 80s linear infinite both;
+	/*background: #1B6D85;*/
+}
+@keyframes gun{
+	from{
+		transform:translate(0px,0px);
+	}
+	to{
+		transform:translate(-4700px,0px);
+	}
+}
+.zimu .guding span{
+	cursor:pointer;
+	display:inline-block;
+	width:100px;
+	height:50px;
+	background:#c08e49;
+	color:#fff;
+	text-align:center;
+	line-height:50px;
+	transition:all 0.5s ease;
+}
+.zimu .guding{
+	cursor:pointer;
+	float:left;
+	margin-right:30px;
+	transition:all 0.5s ease;
+}
+.zimu .guding span:hover{
+	background:#000;
+}
+.zimu .guding:hover{
+	color:#c08e49;
+}
+
+
+
+/*商业服务*/
+.sft{
+	cursor:pointer;
+	padding:20px 0;
+	background:#2c2c2c;
+	position:relative;
+	overflow:hidden;
+	opacity:0.9;
+	transition:all 0.5s ease;
+}
+.sft:hover{
+	opacity:1;
+}
+.sft img{
+	transition:all 0.3s ease;
+}
+.sft:hover img{
+	transform:scale(0.9) translate(0px,10px);
+}
+
+.slt{
+	padding:15px;
+	border:none;
+	transition:all 1s ease;
+	margin:11px auto;
+}
+.slt>img{
+	transition:all 0.5s ease;
+	box-sizing: border-box;
+}
+.slt>img:hover{
+	/*border:1px solid #fa0288;*/
+	box-shadow:0px 0px 1px 2px #fa0288;
+}
+.slt:hover{
+	box-shadow:0px 0px 10px 1px #ccc8c2;
+}
+
+
+/*我是模特*/
+.wma1{
+	color:#000;
+	transition:all 0.8s ease;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	word-wrap: break-word;
+	overflow: hidden;
+}
+.wma2{
+	color:#c7934a;
+	transition:all 0.8s ease;
+}
+.wma1:hover,.wma2:hover{
+	text-decoration: none;
+}
+.wmp>p{
+	line-height:13px;
+}
+.wmk{
+	padding:10px;
+	transition:all 0.5s ease;
+}
+.wmk:hover{
+	box-shadow:0px 0px 5px 1px #ccc8c2;
+}
+.wmlink{
+	display:block;
+	width:100%;
+	height:32px;
+	background:#c7934a;
+	color:#fff;
+	line-height:32px;
+	text-align:center;
+	opacity:0.9;
+	margin-top:20px;
+}
+.wmlink:hover{
+	opacity:1;
+	color:#fff;
+	text-decoration: none;
+}
+
+
+
+/*新锐红人榜.外籍超模榜*/
+.biao{
+	width:100%;
+	height:35px;
+	border-bottom:1px solid #8C8C8C;
+	margin-bottom:30px;
+}
+.biao>a{
+	float:right;
+	line-height:35px;
+	color:#c7934a;
+	transition:all 0.5s ease;
+}
+.biao>a:hover{
+	text-decoration:none;
+	color:#633596;
+}
+.dt{
+	margin-bottom:5px;
+	overflow:hidden !important;
+	height:190px;
+}
+@media(min-width:992px) and (max-width:1200px){
+	.dt{
+		height:240px;
+	}
+}
+@media(min-width:768px) and (max-width:992px){
+	.dt{
+		height:248px;
+	}
+	.hrb{
+		width:100% !important;
+	}
+}
+@media(max-width:768px){
+	.dl dd{
+		text-align:center;
+	}
+	.dt{
+		position:relative;
+		height:auto;
+	}
+	.vip{
+		position:absolute;
+		bottom:-60px;
+	}
+	.hrb{
+		width:100% !important;
+	}
+}
+.vip{
+	width:100%;
+	height:60px;
+	background:#080808;
+	opacity:0.9;
+	color:#fff;
+	transition:all 0.5s ease;
+	text-align:center;
+	line-height:60px;
+}
+.vip span{
+	padding:5px 5px;
+	background:#c7934a;
+	line-height:60px;
+}
+.dt:hover .vip{
+	transform:translate(0px,-60px);
+}
+.dt img{
+	transition:all 0.5s ease;
+}
+.dt img:hover{
+	opacity:0.5;
+}
+.hrb{
+	margin-top:20px;
+	width:50%;
+	height:30px;
+	color:#fff;
+	background:#c7934a;
+	opacity:0.8;
+	line-height:30px;
+	transition:all 0.3s ease;
+}
+.hrb:hover{
+	text-decoration: none;
+	color:#fff;
+	opacity:1;
+}
+
+
+/*成都模特网合作项目介绍*/
+.jsp{
+	text-align:center;
+	color:#888888;
+	line-height:13px;
+}
+.hk{
+	/*padding:10px 50px;*/
+}
+.hk span,.xmp{
+	display:inline-block;
+	cursor:pointer;
+	background:#F5F5F5;
+	margin:3px 1px;
+	padding:10px 10px;
+	transition:all 0.2s ease;
+	color:#8C8C8C;
+}
+.hk span:hover,.xmp:hover{
+	background:#000;
+	color:#fff;
+}
+.hza{
+	padding:10px;
+	margin:0px -2px;
+	color:#fff;
+	opacity:0.8;
+	transition:all 0.3s ease;
+}
+.hza:hover{
+	color:#fff;
+	text-decoration: none;
+	opacity:1;
+}
+
+/*友情链接*/
+.yy{
+	padding:1px;
+	transition:all 0.5s ease;
+}
+.yy:hover{
+	box-shadow:0px 0px 10px 1px #DDDDDD;
+	z-index:99;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*通用底部*/
+@media (max-width: 767px) {
+	.foot_san {
+		text-align: center;
+	}
+}
+/*关于我们*/
+
+.foot_h {
+	color: #9f9f9f;
+	font-size: 16px;
+	padding: 15px 0 6px 0;
+}
+
+.foot_p {
+	height: 15px;
+}
+
+.foot_p>a {
+	color: #ababab;
+	font-size: 13px;
+	text-decoration: none;
+	transition: color 0.5s ease;
+}
+
+.foot_p>a:hover {
+	color: #555;
+}
+
+
+/*版权*/
+
+.banquan {
+	text-align: center;
+}
+
+.banquan_div {
+	color: #ababab;
+}
+
+.banquan_div>a {
+	text-decoration: none;
+	color: #9f9f9f;
+	font-size: 12px;
+	margin: 15px 3px;
+	padding: 0px 3px;
+}
+
+.biankuang {
+	border-right: 2px solid #9f9f9f;
+}
+
+.banquan_div>a:hover {
+	color: brown;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
